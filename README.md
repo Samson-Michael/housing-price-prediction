@@ -34,3 +34,39 @@ Most houses are located near main roads, lack guest rooms and basements, and are
 
 The pairplot reveals that price is strongly correlated with area and moderately correlated with the number of bedrooms and bathrooms. Other features like stories and parking spaces seem to have weaker relationships with price.
 
+# Predictive Analysis
+
+## Baseline Model Evaluation
+
+- Mean Apartment Price: ₦4,045,012.33
+  
+- Baseline MAE (Mean Absolute Error): ₦973,692.83
+  
+Using the average apartment price as the baseline prediction, the error suggests that predictions based solely on the mean would be off by nearly ₦1 million on average. This serves as the benchmark against which advanced models are compared. Any model with an MAE lower than this value would demonstrate improved predictive capability.
+
+## Random Forest Regressor Performance
+
+- Random Forest MAE: ₦252,936.94
+  
+The Random Forest Regressor performed significantly better than the baseline, reducing the MAE by approximately 74%. This demonstrates the model's ability to generalize well and capture complex relationships in the data. Its lower error makes it a strong candidate for predicting housing prices.
+
+# Hyperparameter Tuning and Performance
+
+### Best Parameters (Grid Search)
+
+- max_depth: 15
+  
+- max_features: sqrt
+
+- min_samples_leaf: 2
+
+- min_samples_split: 5
+
+- n_estimators: 100
+
+- Best MSE (Mean Squared Error): 918,525.47
+  
+The hyperparameter tuning process used Grid Search to optimize the Random Forest Regressor. This resulted in a model with improved performance by reducing overfitting and enhancing generalization.
+
+
+
