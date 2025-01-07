@@ -68,5 +68,14 @@ The Random Forest Regressor performed significantly better than the baseline, re
   
 The hyperparameter tuning process used Grid Search to optimize the Random Forest Regressor. This resulted in a model with improved performance by reducing overfitting and enhancing generalization.
 
+# Hyperparameter Tuning
+![image](https://github.com/user-attachments/assets/c5cc17d4-3e86-43c4-99ff-90b2722330dc)
+
+This plot shows the most important factors for the model to predict house prices. House size is the top factor, as expected. Interestingly, unfurnished houses seem to have a significant impact on the model's predictions. The number of bedrooms and parking spaces also play a major role in price estimation
+
+
+
+
+
 
 
