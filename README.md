@@ -22,3 +22,6 @@ This analysis utilized the following Python libraries:
 - Outliers were identified and trimmed to ensure data integrity.
 
 # Exploratory Analysis
+![image](https://github.com/user-attachments/assets/d5fcfd74-8707-4eb1-8d54-8a158b8b46ce)
+
+The histograms visualize the distribution of categorical features in a dataset related to house listings, revealing insights into factors like location preferences, amenities, and property characteristics.
