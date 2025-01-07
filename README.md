@@ -74,8 +74,12 @@ The hyperparameter tuning process used Grid Search to optimize the Random Forest
 This plot shows the most important factors for the model to predict house prices. House size is the top factor, as expected. Interestingly, unfurnished houses seem to have a significant impact on the model's predictions. The number of bedrooms and parking spaces also play a major role in price estimation
 
 
+# Conclusion
+
+This housing price prediction project successfully utilized machine learning techniques to predict property prices with high accuracy. The Random Forest Regressor, after hyperparameter tuning, significantly outperformed the baseline model with a 74% reduction in error (MAE of ₦252,936.94 vs. ₦973,692.83).
 
 
+Key features like house size, furnishing status, and the number of bedrooms were identified as critical drivers of price. These insights guides stakeholders in the housing market to make decisions about property pricing, marketing strategies, and renovation priorities.
 
 
-
+Moving forward, integrating this model into a dynamic pricing tool and refining it with larger, updated datasets will ensure its continued relevance and impact. This project not only demonstrates the power of machine learning in solving real-world problems but also lays a solid foundation for further advancements in the real estate sector.
